@@ -1,0 +1,28 @@
+header {
+  background-color: #111;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60pt;
+}
+
+a {
+  color: #5A0F4E;
+}
+
+a:hover {
+  color: #964B8A;
+}
+
+main {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+footer {
+  text-align: center;
+}
