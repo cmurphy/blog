@@ -19,8 +19,8 @@ a:hover {
 }
 
 main {
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 50%;
+  margin: auto;
 }
 
 footer {
