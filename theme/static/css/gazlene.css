@@ -10,6 +10,23 @@ h1 {
   font-size: 60pt;
 }
 
+h2.entry-title {
+  font-size: 30pt;
+}
+
+nav {
+  font-size: 3em;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav li.active a {
+  color: #aaa;
+}
+
 a {
   color: #5A0F4E;
 }

@@ -10,16 +10,33 @@
   {% endfor %}
 
 {% endblock %}
+{% block menu %}
+  {% if DISPLAY_PAGES_ON_MENU %}
+    {% for p in pages|sort(attribute='sortorder') %}
+      <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+    {% endfor %}
+  {% else %}
+    {% if DISPLAY_CATEGORIES_ON_MENU %}
+      {% for cat, null in categories %}
+        <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+  {% for title, link in MENUITEMS %}
+      <li class="active"><a href="{{ link }}">{{ title }}</a></li>
+  {% endfor %}
+{%endblock%}
 
 {% block content %}
 <section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+  <h2 class="entry-title">
+    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+       title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
-  </header>
+  <div class="entry-content">
+    {{ article.content }}
+  </div><!-- /.entry-content -->
   <footer class="post-info">
     <time class="published" datetime="{{ article.date.isoformat() }}">
       {{ article.locale_date }}
@@ -29,16 +46,6 @@
       {{ article.locale_modified }}
     </time>
 	{% endif %}
-    {% if article.authors %}
-    <address class="vcard author">
-      By {% for author in article.authors %}
-          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-        {% endfor %}
-    </address>
-    {% endif %}
   </footer><!-- /.post-info -->
-  <div class="entry-content">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
 </section>
 {% endblock %}

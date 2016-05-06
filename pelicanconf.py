@@ -36,6 +36,8 @@ SOCIAL = (('twitter', 'https://twitter.com/pdx_krinkle'),
 
 DEFAULT_PAGINATION = 10
 
+MENUITEMS = (('blog', 'archives.html'),)
+
 THEME = 'theme'
 
 STATIC_PATHS = [ 'images', 'extra/favicon.ico' ]

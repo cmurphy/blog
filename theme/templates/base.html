@@ -14,13 +14,10 @@
         <header id="banner" class="body">
                 <img alt="profile" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portland-edited.jpg" height=450px width=100% />
                 <h1>{{ SITETITLE }}</h1>
-        <!--
         <nav id="menu"><ul>
-        {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
-        {% endfor %}
+        {% block menu %}
         {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in pages %}
+          {% for p in pages|sort(attribute='sortorder') %}
             <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
           {% endfor %}
         {% else %}
@@ -30,7 +27,10 @@
             {% endfor %}
           {% endif %}
         {% endif %}
-        -->
+        {% for title, link in MENUITEMS %}
+            <li{% if output_file == 'archives.html' %} class="active"{% endif %}><a href="{{ link }}">{{ title }}</a></li>
+        {% endfor %}
+        {% endblock %}
         </ul></nav><!-- /#menu -->
         </header><!-- /#banner -->
         <main>
@@ -39,7 +39,7 @@
         </main>
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Copyright &copy; 2015 Colleen Murphy
+                Copyright &copy; 2016 Colleen Murphy
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
 </body>

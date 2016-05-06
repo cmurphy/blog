@@ -1,4 +1,7 @@
-:title: Index
+:title: about
+:save_as: index.html
+:url: index.html
+:sortorder: 1
 
 About Colleen
 =============
