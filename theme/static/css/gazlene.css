@@ -27,8 +27,12 @@ nav li.active a {
   color: #aaa;
 }
 
-a {
+nav li a {
   color: #5A0F4E;
+}
+
+a {
+  color: #964B8A;
 }
 
 a:hover {
