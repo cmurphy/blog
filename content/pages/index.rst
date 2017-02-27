@@ -7,8 +7,7 @@ About Colleen
 =============
 
 Colleen is known in the devops world for her involvement in OpenStack
-and Puppet. She is also a lifelong learner who is currently experimenting
-with Python and hardware hacking.
+and Puppet. She currently works at SUSE as a Cloud Developer.
 
 Projects
 ========
@@ -22,10 +21,10 @@ Get in touch with me
 
 * `GitHub <https://github.com/cmurphy>`_
 
-* `Twitter <https://twitter.com/pdx_krinkle>`_
+* `Twitter <https://twitter.com/_colleenm>`_
 
 * `LinkedIn <https://www.linkedin.com/in/colleen-murphy-23a65057>`_
 
 * `Stackalytics <http://stackalytics.com/report/users/krinkle>`_
 
-* Freenode: crinkle
+* Freenode: cmurphy
