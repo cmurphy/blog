@@ -3,8 +3,8 @@
 :url: index.html
 :sortorder: 1
 
-About Colleen
-=============
+Colleen's Blog
+==============
 
 Colleen is known in the devops world for her involvement in OpenStack
 and Puppet. She currently works at SUSE as a Cloud Developer.
@@ -12,6 +12,7 @@ and Puppet. She currently works at SUSE as a Cloud Developer.
 Projects
 ========
 
+* `OpenStack Keystone Team <https://docs.openstack.org/keystone/latest/>`_
 * `OpenStack Infrastructure Team <http://docs.openstack.org/infra/system-config/project.html>`_
 * `OpenStack Puppet Modules Team <https://wiki.openstack.org/wiki/Puppet>`_
 * `The Braindump (at the Computer Action Team) <http://braindump.cat.pdx.edu>`_

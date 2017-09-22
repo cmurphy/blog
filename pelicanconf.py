@@ -3,13 +3,13 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Colleen Murphy'
-COPYRIGHT_YEAR = 2015
+COPYRIGHT_YEAR = 2017
 
 SITENAME = u'Colleen\'s Blog'
 SITEURL = ''
-SITETITLE = u'Colleen Murphy'
-SITESUBTITLE = u'Computerist'
-SITEDESCRIIPTION = u'Resume and Blog of Colleen Murphy'
+SITETITLE = u'In the Zone'
+SITESUBTITLE = u'Colleen\'s Blog'
+SITEDESCRIIPTION = u'Colleen\'s Blog'
 
 PATH = 'content'
 
