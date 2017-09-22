@@ -1,4 +1,10 @@
 {% extends "base.html" %}
+{% block banner %}
+    <header id="banner" class="body">
+    <img class="article-img" alt="profile" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portland-edited.jpg" height=250px />
+    <h1 class="article-header">{{ SITETITLE }}</h1>
+    <nav id="menu" class="article-nav"><ul>
+{% endblock %}
 {% block head %}
   {{ super() }}
   {% if article.description %}

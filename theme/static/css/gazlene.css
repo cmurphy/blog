@@ -10,12 +10,28 @@ h1 {
   font-size: 60pt;
 }
 
+.article-img {
+  float: left;
+  padding: 20px;
+}
+
+.article-header {
+  font-size: 45pt;
+  text-align: left;
+  padding: 20px;
+}
+
 h2.entry-title {
   font-size: 30pt;
 }
 
 nav {
   font-size: 3em;
+}
+
+.article-nav {
+  font-size: 3em;
+  text-align: left;
 }
 
 nav li {

@@ -12,10 +12,12 @@
 </head>
 
 <body id="index" class="home">
+        {% block banner %}
         <header id="banner" class="body">
                 <img alt="profile" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/portland-edited.jpg" height=450px width=100% />
                 <h1>{{ SITETITLE }}</h1>
         <nav id="menu"><ul>
+        {% endblock %}
         {% block menu %}
         {% if DISPLAY_PAGES_ON_MENU %}
           {% for p in pages|sort(attribute='sortorder') %}
