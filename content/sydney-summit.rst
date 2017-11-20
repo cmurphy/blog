@@ -257,9 +257,9 @@ huge number of stakeholders. There were a lot of strong feelings in the room. I
 could honestly not do a better job of summarizing the outcome than the followup
 email threads do, so I will simply refer you to those:
 
-`Thread from Erik <https://governance.openstack.org/tc/resolutions/20140909-cla.html>`__
+`Thread from Erik <http://lists.openstack.org/pipermail/openstack-dev/2017-November/124308.html>`__
 
-`Thread from Thierry <https://governance.openstack.org/tc/resolutions/20140909-cla.html>`__
+`Thread from Thierry <http://lists.openstack.org/pipermail/openstack-sigs/2017-November/000148.html>`__
 
 RBAC/Policy Roadmap Feedback
 ----------------------------
