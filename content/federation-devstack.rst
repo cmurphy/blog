@@ -2,6 +2,13 @@
 :slug: federation-devstack
 :date: 2017-02-27 17:00
 
+.. note::
+
+    NOTE: There is now a `more in-depth version
+    <{filename}/demystifying-keystone-federation.rst>`_ of this post. Read that
+    first, and come back here if you need more information about setting up
+    mod_auth_mellon or OpenIDC.
+
 If you're interested in working on making keystone federation better or
 reviewing federation-related keystone code, you need to have a development
 environment that uses a federated identity backend. If you're not an operator

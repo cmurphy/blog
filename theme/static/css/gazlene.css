@@ -63,3 +63,16 @@ main {
 footer {
   text-align: center;
 }
+
+div.note {
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #aaa;
+  padding: 4px;
+  border: 1px solid black;
+  margin: 4px 30px 10px 10px;
+}
+
+p.admonition-title {
+  display: none;
+}
