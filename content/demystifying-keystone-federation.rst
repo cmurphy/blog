@@ -1,7 +1,7 @@
 :title: Demystifying Keystone Federation
 :slug: demystifying-keystone-federation
 :sortorder: 40
-:date: 2017-12-09 15:00
+:date: 2018-01-28 20:00
 
 While I am not one of the people who implemented federated auth in keystone, as
 a keystone maintainer I had to learn about it. This post is about all the
