@@ -303,6 +303,23 @@ matter what the tag says. We'll promote implied roles to "stable".
 .. _JSON-home RFC draft: https://mnot.github.io/I-D/json-home/
 .. _capabilities API: https://review.openstack.org/#/c/547162/
 
+JSON Web Tokens
+---------------
+
+`Etherpad <https://etherpad.openstack.org/p/keystone-rocky-ptg-jwt>`__
+
+**EDIT** I had initially skipped over my notes on JWT, which was quite an
+important topic. Here now is the summary.
+
+need to refactor the token api
+problems of encryption of tokens
+  requires sharing the private keys which doesn't get us much further away from
+    the current symmetric implementation
+  k8s uses unencrypted jwt, so forseeing integration should lead us in that
+  direction
+offline validation
+using jwt tokens for k8s
+
 v2 Testing
 ----------
 
