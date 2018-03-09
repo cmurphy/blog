@@ -458,14 +458,11 @@ Retrospective
 
 `Trello board <https://trello.com/b/Vo6dRALh/keystone-queens-retrospective>`__
 
-We spent about three hours having a very productive team retrospective. At the
-time of this writing, the Trello board we used is not public, which is an
-unintentional mistake that we'll have the board administrator rectify ASAP.
-
-I can't sum up everything, but one of the notable outcomes was a resolution to
-encourage more friendly cooperation with contributors in Asia who are currently
-facing barriers due to timezones, technical challenges, and cultural differences
-that we've not been conscious of. IRC is commonly blocked to employees at large
+We spent about three hours having a very productive team retrospective. I can't
+sum up everything, but one of the notable outcomes was a resolution to encourage
+more friendly cooperation with contributors in Asia who are currently facing
+barriers due to timezones, technical challenges, and cultural differences that
+we've not been conscious of. IRC is commonly blocked to employees at large
 companies, so they cannot communicate synchronously with the team while they are
 working in the office. A more surprising revelation was that email to outside of
 the company was also blocked by some companies for data protection reasons, so
