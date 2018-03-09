@@ -303,6 +303,43 @@ matter what the tag says. We'll promote implied roles to "stable".
 .. _JSON-home RFC draft: https://mnot.github.io/I-D/json-home/
 .. _capabilities API: https://review.openstack.org/#/c/547162/
 
+JSON Web Tokens
+---------------
+
+`Etherpad <https://etherpad.openstack.org/p/keystone-rocky-ptg-jwt>`__
+
+**EDIT** I had initially skipped over my notes on JWT, which was quite an
+important topic. Here now is the summary.
+
+At the last PTG we discussed implementing JSON Web Tokens as a new
+non-persistent alternative to the fernet token provider, and we wrote a `"this
+would be nice" spec`_ to outline what this would look like. Now that the token
+provider has `been refactored`_ we can start realistically thinking about
+implementing this.
+
+In the current spec proposal, we've proposed to encrypt the tokens even though
+this is not currently a supported feature of pyJWT, the current JWT library
+already in OpenStack requirements. This was to provide parity with the fernet
+implementation: for one, we wanted to enforce a round trip with keystone so that
+the payload within the token was never relied on as stable, and for two, there
+is a slight corner case where if an invalidated token is intercepted an attacker
+cannot currently use it to retrieve the token object, but leaving it unencrypted
+would reveal some of that information. We proposed to drop the requirement of
+encrypting the token (it would still be signed) for two reasons. One, encrypting
+it would mean still sharing private keys between keystone controller nodes. And
+two, kubernetes does not use encrypted tokens, and as we look to a future of a
+seamless crossover between techs it might make sense to be mindful of
+cooperative approaches.
+
+We also talked about offline validation, a benefit that we had in the PKI days
+that we no longer provide. While we haven't expressly heard anyone clamoring to
+bring back offline validation, it was interesting to consider whether we could
+leverage JWT to bring this back, and whether anyone really needed this or if
+proper caching setups eliminated the need for this.
+
+.. _"this would be nice" spec: http://specs.openstack.org/openstack/keystone-specs/specs/keystone/backlog/json-web-tokens.html
+.. _been refactored: https://review.openstack.org/#/q/(status:open+OR+status:merged)+project:openstack/keystone+branch:master+topic:token-provider-refactor
+
 v2 Testing
 ----------
 
