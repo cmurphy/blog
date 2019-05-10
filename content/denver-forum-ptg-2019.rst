@@ -16,8 +16,6 @@ started, the keystone team made good progress on several topics.
 This recap will cover topics from both the Forum and the PTG, since many topics
 were touched on first at the Forum and then followed up upon during the PTG.
 
-INCLUDE TEAM PHOTO
-
 Application Credentials
 =======================
 
