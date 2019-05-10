@@ -171,7 +171,7 @@ but it is helpful to have a picture of it for debugging later.
 Normal keystone
 ~~~~~~~~~~~~~~~
 
-.. image:: {filename}/images/normal-keystone.png
+.. image:: {static}/images/normal-keystone.png
 
 In a normal keystone flow, the user requests a scoped token directly from
 keystone. Keystone accepts their credentials and checks them against its local
@@ -184,7 +184,7 @@ produced is irrelevant to this discussion.
 SAML2.0 WebSSO
 ~~~~~~~~~~~~~~
 
-.. image:: {filename}/images/websso.png
+.. image:: {static}/images/websso.png
 
 WebSSO is one of a few SAML profiles. It is entirely based on the idea that a
 web browser will be acting as an intermediary and so the whole flow involves
@@ -207,7 +207,7 @@ redirect back to the original resource the user had requested.
 SAML2.0 ECP
 ~~~~~~~~~~~
 
-.. image:: {filename}/images/ecp.png
+.. image:: {static}/images/ecp.png
 
 ECP is another SAML profile. Generally the flow is similar to the WebSSO flow,
 but it is designed for a client that natively understands SAML, for example the
@@ -224,7 +224,7 @@ any closer to understanding why your browser flow is broken.
 WebSSO with keystone and horizon
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: {filename}/images/websso-keystone-horizon.png
+.. image:: {static}/images/websso-keystone-horizon.png
 
 When we apply WebSSO to keystone using an external Identity Provider, things get
 a little more complicated. Keystone is still the Service Provider, but keystone
@@ -258,7 +258,7 @@ endpoint of the secure resource it requests from keystone.
 Keystone to Keystone
 ~~~~~~~~~~~~~~~~~~~~
 
-.. image:: {filename}/images/k2k.png
+.. image:: {static}/images/k2k.png
 
 When keystone is used as an Identity Provider, the auth flow is pretty unique.
 It doesn't follow any of the SAML standards, though you could say it's similar
@@ -322,7 +322,7 @@ After this, you can restart Apache and visit the horizon login page to see the
 new dropdown menu. Of course this won't be functional yet since we haven't set
 up keystone yet.
 
-.. image:: {filename}/images/dropdown.png
+.. image:: {static}/images/dropdown.png
 
 Create federation resources in keystone
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -808,7 +808,7 @@ Log in
 Now, log in to the horizon on the Identity Provider with your normal keystone
 credentials. In the top right of the dashboard, there should be a new panel:
 
-.. image:: {filename}/images/k2klogin.png
+.. image:: {static}/images/k2klogin.png
 
 You can select your keystone Service Provider from the dropdown and log in to
 the Service Provider cloud.
