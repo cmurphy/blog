@@ -3,6 +3,8 @@
 :sortorder: 30
 :date: 2019-05-10 17:00
 
+.. image:: {static}/images/team.jpg
+
 YET AGAIN we returned to Denver, the city that brings snow and trains together.
 This time we were here not just for the Project Teams Gathering but also for the
 OpenStack Summit and Forum. Although the time allotment for all the activity
