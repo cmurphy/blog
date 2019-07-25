@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Colleen Murphy'
-COPYRIGHT_YEAR = 2018
+COPYRIGHT_YEAR = 2019
 
 SITENAME = u'Colleen\'s Blog'
 SITEURL = ''
