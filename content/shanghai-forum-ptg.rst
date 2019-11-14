@@ -138,7 +138,7 @@ first few changes to help ensure the migration proceeds in the right direction.
 Neutron
 -------
 
-`Neutron PTG Etherpad <https://etherpad.openstack.org/p/neutron-ptg-temp>`__
+`Neutron PTG Etherpad <https://etherpad.openstack.org/p/Shanghai-Neutron-Planning-restored>`__
 
 The discussion with the neutron team was straightforward. They also had
 questions about testing and I again recapped the discussion from the QA meeting.
