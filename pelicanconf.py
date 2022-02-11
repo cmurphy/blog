@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Colleen Murphy'
-COPYRIGHT_YEAR = 2019
+COPYRIGHT_YEAR = 2022
 
 SITENAME = u'Colleen\'s Blog'
 SITEURL = ''
@@ -30,7 +30,7 @@ AUTHOR_FEED_RSS = None
 #         ('Stackalytics', 'http://stackalytics.com/report/users/krinkle'))
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/pdx_krinkle'),
+SOCIAL = (('twitter', 'https://twitter.com/cmurpheus'),
          ('github', 'http://github.com/cmurphy'),
          ('linkedin', 'https://www.linkedin.com/in/colleen-murphy-23a65057'),)
 

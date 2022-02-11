@@ -3,15 +3,20 @@
 :url: index.html
 :sortorder: 1
 
-Colleen's Blog
-==============
+About Me
+========
 
-Colleen is known in the devops world for her involvement in OpenStack
-and Puppet. She currently works at SUSE as a Cloud Developer.
+I'm Colleen Murphy, a software engineer at SUSE where I currently work on
+`Rancher <https://rancher.com/>`_ with a focus on platform security.
+I've been known in the open source world for my involvement in OpenStack as a
+team lead, and for my work on Puppet Forge modules. I'm passionate about Linux,
+open source, collaboration, and fixing things.
 
 Projects
 ========
 
+* `Rancher <https://rancher.com/>`_
+* `Kubernetes Security Profiles Operator <https://github.com/kubernetes-sigs/security-profiles-operator>`_
 * `OpenStack Keystone Team <https://docs.openstack.org/keystone/latest/>`_
 * `OpenStack Infrastructure Team <http://docs.openstack.org/infra/system-config/project.html>`_
 * `OpenStack Puppet Modules Team <https://wiki.openstack.org/wiki/Puppet>`_
@@ -22,10 +27,10 @@ Get in touch with me
 
 * `GitHub <https://github.com/cmurphy>`_
 
-* `Twitter <https://twitter.com/_colleenm>`_
+* `Twitter <https://twitter.com/cmurpheus>`_
 
 * `LinkedIn <https://www.linkedin.com/in/colleen-murphy-23a65057>`_
 
 * `Stackalytics <http://stackalytics.com/report/users/krinkle>`_
 
-* Freenode: cmurphy
+* Libera/OFTC: cmurphy
