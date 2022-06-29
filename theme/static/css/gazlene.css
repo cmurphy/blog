@@ -65,11 +65,9 @@ footer {
 }
 
 div.note {
-  font-weight: bold;
-  font-size: 1.2em;
-  background-color: #aaa;
+  background-color: #ddd;
   padding: 4px;
-  border: 1px solid black;
+  border: 1px solid #aaa;
   margin: 4px 30px 10px 10px;
 }
 
