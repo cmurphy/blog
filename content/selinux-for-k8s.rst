@@ -1,7 +1,7 @@
 :title: SELinux and Kubernetes: Writing Custom Policies
 :slug: selinux-for-k8s
 :sortorder: 20
-:date: 2022-07-01
+:date: 2022-07-05
 
 If you run containerized applications on hosts with SELinux enforcing, whether
 with Kubernetes or just the bare container runtime, there may be barriers to
